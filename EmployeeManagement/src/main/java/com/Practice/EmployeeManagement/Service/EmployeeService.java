@@ -169,7 +169,7 @@ public class EmployeeService {
         Map<String, String> Variables = new HashMap<>();
         Variables.put("lat", location.get("lat"));
        Variables.put("lon", location.get("lon"));
-        Variables.put("apikey", "3ce9035fd0a398034874bdaf2dcb9c6b"); 
+        Variables.put("apikey", "xxxxxxxxxxxxxxxxxxxxxx"); 
 
         try {
             return restTemplate.getForObject(url, String.class, Variables);
